@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Cainta Catholic College School</title>
+    <link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/4247c61e5c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <br>
+            <a href="http://caintacatholiccollege.com/" class="logo">Cainta Catholic College</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <B>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="academics.html">ACADEMICS</a></li>
+                    <li><a href="events.html">EVENTS</a></li> 
+                    <li><a href="contact.html">CONTACTS</a></li>
+                    </B>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <div class="text-box">
+                <h1>Contact Us</h1>
+                <p>Below are some of our details and accounts that you can contact us with:</p>
+            </div>
+    </header>
+    
+ 
+    
+    
+ 
+<!------ Contacts ------>
+    
+<section class="location">
+    
+    <h1>Location Map:</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.374619853021!2d121.1141804145186!3d14.577716889817067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c79a44d0155d%3A0xf2488a3735ff9d8a!2sCainta%20Catholic%20College!5e0!3m2!1sen!2sph!4v1647658561157!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+</section>
+    
+<section class="contact-us">
+    <h1>Our Contact Information:</h1>
+    
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>A. Bonifacio Ave. Poblacion</h5>
+                    <p>Cainta, Rizal, 1900</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>(8)643-2000</h5>
+                    <p>Monday To Friday, 4AM/9AM to 3AM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>ccc@caintacatholiccollege.com</h5>
+                    <p>E-mail us your query</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-facebook"></i>
+                <span>
+                    <h5>Cainta Catholic College</h5>
+                    <p>Message us!</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-twitter"></i>
+                <span>
+                    <h5>@caintaCCC</h5>
+                    <p>Message us!</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-youtube"></i>
+                <span>
+                    <h5>Cainta Catholic College</h5>
+                    <p>Watch our videos for additional information</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-globe"></i>
+                <span>
+                    <h5>caintacatholiccollege.com</h5>
+                    <p>Visit our official website!</p>
+                </span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">  
+        <div class="comment-box">
+
+            <h3>Send us a message if you like</h3>
+
+            <form class="comment-form">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter E-mail Address" required>
+                <input type="text" name="subject" placeholder="Enter Your Subject" required> 
+                <textarea rows="8" name="message" placeholder="Your Message" required></textarea> 
+                <button type="submit" class="hero-btn red-btn">Send Message</button> 
+            </form>
+        </div>
+    </div>
+    
+</section>
+    
+
+    
+    
+    
+<!------ Footer ------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Hello! If you would like to ask for questions, please contact me. Thanks!</p>
+    
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Chester Matthew P. Ballesteros</p>
+</section>
+    
+    
+    
+
+
+<!-------- Javascript for Toggle Menu -------->
+<script>
+    
+    var navLinks = document.getElementById("navLinks"); 
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){ 
+        navLinks.style.right = "-200px";
+    }
+    
+</script>   
+    
+
+    
+</body>
+</html>
